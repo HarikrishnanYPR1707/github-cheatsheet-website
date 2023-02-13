@@ -17,7 +17,7 @@ const Header = () => {
         // Main Div
         <section className="bg-[#0d0d0d] border-2 border-black flex flex-col justify-center items-center">
             {/* Top Main */}
-            <div className="border-2 border-green-500 lg:flex lg:justify-center lg:items-center">
+            <div className="border-2 border-green-500 lg:mt-5 lg:flex lg:justify-center lg:items-center">
                 {/* Social Media */}
                 <div className="border-2 border-red-500 flex justify-center mt-5 lg:mt-0 lg:flex-col">
                     <a href="https://www.youtube.com/@coding_adda" target='_blank' rel="noreferrer" className="px-2 lg:py-2">
