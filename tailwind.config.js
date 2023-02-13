@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'body': ['Poppins'],
-        'podkova': ['Podkova']
+        'body' : ['Poppins'],
+        'podkova' : ['Podkova'],
+        'firaCode' : ['"Fira Code", monospace']
       }
     },
   },
