@@ -42,7 +42,7 @@ const Header = () => {
                     {/* Coding Adda Icon */}
                     <div className='flex flex-col justify-center items-center md:pr-4 md:scale-90 lg:scale-100'>
                         <Image src={CodingAdda} alt='logo' className="w-[78px] lg:w-[95px]" />
-                        <h1 className='-mt-2 text-[#2982B9] font-black text-[56px] lg:text-[4.25rem]'>Coding Adda</h1>
+                        <h1 className='-mt-2 text-[#2982B9] font-black text-[56px] lg:text-[60px]'>Coding Adda</h1>
                     </div>
 
                     {/* Arrow Icon */}
@@ -55,7 +55,7 @@ const Header = () => {
                     <div className='flex flex-col justify-center items-center md:pl-4 md:scale-90 lg:scale-100'>
                         <Image src={GitHubWhite} alt='GitHubWhite' className="w-[99px] lg:w-[120px] lg:h-[120px]"/>
                         <div className="flex flex-col justify-center items-center">
-                            <h1 className='-mt-8 text-white text-[45px] font-black'>Github </h1>
+                            <h1 className='-mt-8 text-white text-[45px] font-black lg:text-[54px]'>Github </h1>
                             <h1 className="-mt-5 text-[#02DAC5] text-[45px] font-black lg:text-[54px]">&quot;CheatSheet&quot;</h1>
                         </div>
                     </div>
