@@ -17,7 +17,7 @@ const Header = () => {
         // Main Div
         <section className="bg-[#0d0d0d] flex flex-col justify-center items-center">
             {/* Top Main */}
-            <div className="lg:mt-5 lg:flex lg:justify-center lg:items-center">
+            <div className="lg:mt-10 lg:flex lg:justify-center lg:items-center">
                 {/* Social Media */}
                 <div className="flex justify-center mt-5 lg:mt-0 lg:flex-col">
                     <a href="https://www.youtube.com/@coding_adda" target='_blank' rel="noreferrer" className="px-2 lg:py-2">
@@ -38,7 +38,7 @@ const Header = () => {
                     </a>
                 </div>
                 {/* top section > mid section */}
-                <div className="md:my-6 md:flex md:justify-center md:items-center lg:ml-20">
+                <div className=" mt-5 md:my-6 md:flex md:justify-center md:items-center lg:ml-20">
                     {/* Coding Adda Icon */}
                     <div className='flex flex-col justify-center items-center md:pr-4 md:scale-90 lg:scale-100'>
                         <Image src={CodingAdda} alt='logo' className="w-[78px] lg:w-[95px]" />
@@ -64,7 +64,7 @@ const Header = () => {
             </div>
 
             {/* Bottom Main */}
-            <div className='pb-10 pt-8 flex flex-col justify-center items-center md:pt-2 md:pb-5 md:scale-90 lg:scale-100'>
+            <div className='pb-10 pt-8 flex flex-col justify-center items-center md:pt-2 md:pb-5 md:scale-90 lg: mb-5 lg:scale-100'>
                 {/* Playlist button */}
                 <h1 className='text-white text-[31px] font-black'>Visit our Playlist</h1>
                 <a href="" className="border-2 px-5 py-1 bg-[#D9D9D9] rounded-md">
