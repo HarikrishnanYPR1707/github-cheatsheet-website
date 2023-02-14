@@ -67,7 +67,7 @@ const Header = () => {
             <div className='pb-10 pt-8 flex flex-col justify-center items-center md:pt-2 md:pb-5 md:scale-90 lg: mb-5 lg:scale-100'>
                 {/* Playlist button */}
                 <h1 className='text-white text-[31px] font-black'>Visit our Playlist</h1>
-                <a href="" className="border-2 px-5 py-1 bg-[#D9D9D9] rounded-md">
+                <a href="" className="border-2 mt-2 px-5 py-1 bg-[#D9D9D9] rounded-md">
                     <button className='text-black font-black'>Link to Playlist</button>
                 </a>
             </div>
