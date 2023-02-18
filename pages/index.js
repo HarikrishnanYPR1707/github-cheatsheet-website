@@ -8,7 +8,7 @@ const index = () => {
     <>
       <Header />
       <Hero />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
