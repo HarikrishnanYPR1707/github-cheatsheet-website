@@ -9,7 +9,7 @@ const Hero = () => {
 	return (
 		<section className=' bg-[#1e1e1e] pt-5 px-5'>
 			<DataOf3
-				Heading='Setup'
+				Heading='setup'
 				Description='Configuring user information used across all local repositories'
 				Code1='git config --global user.name “[firstname lastname]”'
 				Code1Desc='set a name that is identifiable for credit when review version history'
@@ -69,6 +69,16 @@ const Hero = () => {
 				Code4Desc='show the diff of what is in branchA that is not in branchB'
 				Code5='git show [SHA]'
 				Code5Desc='show any object in Git in human-readable format'
+			/>
+			<DataOf3
+				Heading='TRACKING PATH CHANGES'
+				Description='Versioning file removes and path changes'
+				Code1='git rm [file]'
+				Code1Desc='delete the file from project and stage the removal for commit'
+				Code2='git mv [existing-path] [new-path]'
+				Code2Desc='change an existing file path and stage the move'
+				Code3='git log --stat -M'
+				Code3Desc='show all commit logs with indication of any paths that moved'
 			/>
 		</section>
 	)
