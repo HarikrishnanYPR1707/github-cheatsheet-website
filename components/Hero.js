@@ -26,7 +26,7 @@ const Hero = () => {
 				Code2='git clone [url]'
 				Code2Desc='retrieve an entire repository from a hosted location via URL'
 			/>
-			{/* <DataOf6
+			<DataOf6
 				Heading='STAGE & SNAPSHOT'
 				Description='Working with snapshots and the Git staging area'
 				Code1='git status'
@@ -41,7 +41,7 @@ const Hero = () => {
 				Code5Desc='diff of what is staged but not yet commited'
 				Code6='git commit -m “[descriptive message]”'
 				Code6Desc='commit your staged content as a new commit snapshot'
-			/> */}
+			/>
 			{/* <DataOf5
 				Heading='BRANCH & MERGE'
 				Description='Isolating work in branches, changing context, and integrating changes'
