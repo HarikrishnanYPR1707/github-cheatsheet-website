@@ -14,7 +14,7 @@ module.exports = {
         'body' : ['Poppins'],
         'podkova' : ['Podkova'],
         'firaCode' : ['"Fira Code", monospace']
-      }
+      },
     },
   },
   plugins: [],
