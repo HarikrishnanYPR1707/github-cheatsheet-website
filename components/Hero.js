@@ -94,6 +94,14 @@ const Hero = () => {
 				Code5='git pull'
 				Code5Desc='fetch and merge any commits from the tracking remote branch'
 			/>
+			<DataOf2
+				Heading='REWRITE HISTORY'
+				Description='Rewriting branches, updating commits and clearing history'
+				Code1='git rebase [branch]'
+				Code1Desc='apply any commits of current branch ahead of specified one'
+				Code2='git reset --hard [commit]'
+				Code2Desc='clear staging area, rewrite working tree from specified commit'
+			/>
 		</section>
 	)
 }
