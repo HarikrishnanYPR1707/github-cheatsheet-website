@@ -80,6 +80,20 @@ const Hero = () => {
 				Code3='git log --stat -M'
 				Code3Desc='show all commit logs with indication of any paths that moved'
 			/>
+			<DataOf5
+				Heading='SHARE & UPDATE'
+				Description='Retrieving updates from another repository and updating local repos'
+				Code1='git remote add [alias] [url]'
+				Code1Desc='add a git URL as an alias'
+				Code2='git fetch [alias]'
+				Code2Desc='fetch down all the branches from that Git remote'
+				Code3='git merge [alias]/[branch]'
+				Code3Desc='merge a remote branch into your current branch to bring it up to date'
+				Code4='git push [alias] [branch]'
+				Code4Desc='Transmit local branch commits to the remote repository branch'
+				Code5='git pull'
+				Code5Desc='fetch and merge any commits from the tracking remote branch'
+			/>
 		</section>
 	)
 }
