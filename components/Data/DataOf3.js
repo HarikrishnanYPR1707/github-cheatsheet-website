@@ -7,7 +7,7 @@ const DataOf3 = ({ Heading, Description, Code1, Code2, Code3, Code1Desc, Code2De
             {/* Top Section */}
             <div className="flex flex-col justify-center items-center">
                 {/* Header  */}
-                <h1 className="text-white text-[35px] font-black">
+                <h1 className="text-white text-center text-[35px] font-black">
                     {Heading}
                 </h1>
                 {/* Header Description */}
