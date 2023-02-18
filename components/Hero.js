@@ -9,7 +9,7 @@ const Hero = () => {
 	return (
 		<section className=' bg-[#1e1e1e] pt-5 px-5'>
 			<DataOf3
-				Heading='setup'
+				Heading='SETUP'
 				Description='Configuring user information used across all local repositories'
 				Code1='git config --global user.name “[firstname lastname]”'
 				Code1Desc='set a name that is identifiable for credit when review version history'
