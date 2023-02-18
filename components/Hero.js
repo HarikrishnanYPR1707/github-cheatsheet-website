@@ -56,7 +56,7 @@ const Hero = () => {
 				Code5='git log'
 				Code5Desc='show all commits in the current branch’s history'
 			/>
-			{/* <DataOf5
+			<DataOf5
 				Heading='INSPECT & COMPARE'
 				Description='Examining logs, diffs and object information'
 				Code1='git log'
@@ -69,7 +69,7 @@ const Hero = () => {
 				Code4Desc='show the diff of what is in branchA that is not in branchB'
 				Code5='git show [SHA]'
 				Code5Desc='show any object in Git in human-readable format'
-			/> */}
+			/>
 		</section>
 	)
 }
