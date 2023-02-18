@@ -18,7 +18,7 @@ const Hero = () => {
 				Code3='git config --global color.ui auto'
 				Code3Desc='set automatic command line coloring for Git for easy reviewing'
 			/>
-			{/* <DataOf2
+			<DataOf2
 				Heading='SETUP & INIT'
 				Description='Configuring user information, initializing and cloning repositories'
 				Code1='git init'
@@ -26,7 +26,7 @@ const Hero = () => {
 				Code2='git clone [url]'
 				Code2Desc='retrieve an entire repository from a hosted location via URL'
 			/>
-			<DataOf6
+			{/* <DataOf6
 				Heading='STAGE & SNAPSHOT'
 				Description='Working with snapshots and the Git staging area'
 				Code1='git status'
@@ -41,8 +41,8 @@ const Hero = () => {
 				Code5Desc='diff of what is staged but not yet commited'
 				Code6='git commit -m “[descriptive message]”'
 				Code6Desc='commit your staged content as a new commit snapshot'
-			/>
-			<DataOf5
+			/> */}
+			{/* <DataOf5
 				Heading='BRANCH & MERGE'
 				Description='Isolating work in branches, changing context, and integrating changes'
 				Code1='git branch'
@@ -55,8 +55,8 @@ const Hero = () => {
 				Code4Desc='merge the specified branch’s history into the current one'
 				Code5='git log'
 				Code5Desc='show all commits in the current branch’s history'
-			/>
-			<DataOf5
+			/> */}
+			{/* <DataOf5
 				Heading='INSPECT & COMPARE'
 				Description='Examining logs, diffs and object information'
 				Code1='git log'
