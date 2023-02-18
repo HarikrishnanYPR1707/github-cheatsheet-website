@@ -102,6 +102,18 @@ const Hero = () => {
 				Code2='git reset --hard [commit]'
 				Code2Desc='clear staging area, rewrite working tree from specified commit'
 			/>
+			<DataOf4
+				Heading='TEMPORARY COMMITS'
+				Description='Temporarily store modified, tracked files in order to change branches'
+				Code1='git stash'
+				Code1Desc='Save modified and staged changes'
+				Code2='git stash list'
+				Code2Desc='list stack-order of stashed file changes'
+				Code3='git stash pop'
+				Code3Desc='write working from top of stash stack'
+				Code4='git stash drop'
+				Code4Desc='discard the changes from top of stash stack'
+			/>
 		</section>
 	)
 }
