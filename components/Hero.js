@@ -42,7 +42,7 @@ const Hero = () => {
 				Code6='git commit -m “[descriptive message]”'
 				Code6Desc='commit your staged content as a new commit snapshot'
 			/>
-			{/* <DataOf5
+			<DataOf5
 				Heading='BRANCH & MERGE'
 				Description='Isolating work in branches, changing context, and integrating changes'
 				Code1='git branch'
@@ -55,7 +55,7 @@ const Hero = () => {
 				Code4Desc='merge the specified branch’s history into the current one'
 				Code5='git log'
 				Code5Desc='show all commits in the current branch’s history'
-			/> */}
+			/>
 			{/* <DataOf5
 				Heading='INSPECT & COMPARE'
 				Description='Examining logs, diffs and object information'
