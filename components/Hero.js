@@ -7,7 +7,7 @@ import DataOf6 from './Data/DataOf6';
 
 const Hero = () => {
 	return (
-		<section className=' bg-[#1e1e1e] pt-5 px-5'>
+		<section className=' bg-[#1e1e1e] pt-5 px-5 md:flex md:flex-col md:justify-center md:items-center'>
 			<DataOf3
 				Heading='SETUP'
 				Description='Configuring user information used across all local repositories'
@@ -113,6 +113,14 @@ const Hero = () => {
 				Code3Desc='write working from top of stash stack'
 				Code4='git stash drop'
 				Code4Desc='discard the changes from top of stash stack'
+			/>
+			<DataOf2
+				Heading='IGNORING PATTERNS'
+				Description='Preventing unintentional staging or commiting of files'
+				Code1='logs/, *.notes, pattern*/'
+				Code1Desc='Save a file with desired paterns as .gitignore with either direct string matches or wildcard globs.'
+				Code2='git config --global core.excludesfile [file]'
+				Code2Desc='system wide ignore patern for all local repositories'
 			/>
 		</section>
 	)
