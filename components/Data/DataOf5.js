@@ -20,7 +20,7 @@ const DataOf5 = ({ Heading, Description, Code1, Code2, Code3, Code4, Code5, Code
             <div className="mt-1 ">
                 <div className="p-2 my-3 bg-[#424242] rounded-lg flex flex-col justify-center items-center">
                     {/* Command */}
-                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black">
+                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black cursor-pointer">
                         {Code1}
                     </p>
                     {/* Command Description  */}
@@ -31,7 +31,7 @@ const DataOf5 = ({ Heading, Description, Code1, Code2, Code3, Code4, Code5, Code
 
                 <div className="p-2 my-3 bg-[#424242] rounded-lg flex flex-col justify-center items-center">
                     {/* Command */}
-                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black">
+                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black cursor-pointer">
                         {Code2}
                     </p>
                     {/* Command Description  */}
@@ -42,7 +42,7 @@ const DataOf5 = ({ Heading, Description, Code1, Code2, Code3, Code4, Code5, Code
 
                 <div className="p-2 my-3 bg-[#424242] rounded-lg flex flex-col justify-center items-center">
                     {/* Command */}
-                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black">
+                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black cursor-pointer">
                         {Code3}
                     </p>
                     {/* Command Description  */}
@@ -53,7 +53,7 @@ const DataOf5 = ({ Heading, Description, Code1, Code2, Code3, Code4, Code5, Code
 
                 <div className="p-2 my-3 bg-[#424242] rounded-lg flex flex-col justify-center items-center">
                     {/* Command */}
-                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black">
+                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black cursor-pointer">
                         {Code4}
                     </p>
                     {/* Command Description  */}
@@ -64,7 +64,7 @@ const DataOf5 = ({ Heading, Description, Code1, Code2, Code3, Code4, Code5, Code
 
                 <div className="p-2 my-3 bg-[#424242] rounded-lg flex flex-col justify-center items-center">
                     {/* Command */}
-                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black">
+                    <p className="bg-[#D9D9D9] text-black px-5 py-3 rounded-lg font-firaCode text-[13.65px] font-black cursor-pointer">
                         {Code5}
                     </p>
                     {/* Command Description  */}
