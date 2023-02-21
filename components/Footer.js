@@ -6,30 +6,44 @@ import shape from '../public/shape.png';
 
 
 const Footer = () => {
+
     return (
-        <section className=' h-[267px] bg-[#0d0d0d] flex flex-row p-10 justify-around items-center '>
+        <section className='bg-black p-5 text-[#2982B9] grid grid-cols-2 gap-2'>
             {/* Coding Adda  */}
-            <div>
-                <div className=' flex flex-row '>
-                    <Image src={CodingAdda} width={95} height={95} alt='logo' />
-                    <h1 className=' text-[#2982b9] font-body font-black text-[66.78px] '>Coding Adda</h1>
+            <div className=''>
+                <div className='flex justify-start items-center gap-2'>
+                    <Image src={CodingAdda} alt='logo' className="w-[36px] md:w-[45px] lg:w-[75px]" />
+                    <h1 className='font-body font-black text-[21px] md:text-[30px] lg:text-[56px]'>
+                        Coding Adda
+                    </h1>
                 </div>
-                <p className=' text-[#2982b9] text-[20.29px] font-pada w-[86%] mt-5'>An Edtech Channel where we teach you about coding and provide you with Coding And Tech Hacks.</p>
+                <p className='pt-1 text-[12px] font-pada md:text-[14px] lg:text-[20px]'>
+                    Hello Everyone,
+                    Presenting you CODING ADDA, We at Coding Adda will help you solve problems in Coding.
+                    We at Coding Adda try to clarify the concepts of Coding through short videos and real-life examples.
+                    Do support us in our journey.
+                    Like, Share and Subscribe to the Channel.
+                </p>
             </div>
             {/* CTA */}
-            <div>
+            <div className='flex justify-end items-center'>
                 {/* Mail */}
-                <div className=' text-[#2982b9] text-[23.75px] font-pada flex flex-row '>
-                    <Image src={Vector} width={38.64} height={21.36} alt='Vector' />
-                    <a href="mailto:addacoding01@gmail.com" target='_blank' rel="noreferrer" className='ml-5'>addacoding01@gmail.com</a>
+                <div className='flex justify-start items-center gap-2'>
+                    <Image src={Vector} alt='Vector' className="w-[20px] h-[14px] md:w-[30px] md:h-[24px] lg:w-[38px] lg:h-[21px]" />
+                    <a href='mailto:addacoding01@gmail.com' target='_blank' rel='noreferrer' className='text-[12px] font-pada md:text-[14px] lg:text-[23px]'>
+                        addacoding01@gmail.com
+                    </a>
                 </div>
                 {/* Website */}
-                <div className=' text-[#2982b9] text-[23.75px] font-pada flex flex-row mt-10 '>
+                {/* <div className=''>
                     <Image src={shape} width={38.64} height={21.36} alt='shape' />
-                    <a href="www.codingadda.com" target='_blank' className='ml-5'>www.codingadda.com</a>
-                </div>
+                    <a href='https://www.codingadda.com' target='_blank' className='ml-4 sm:ml-5'>
+                        www.codingadda.com
+                    </a>
+                </div> */}
             </div>
         </section>
+
     )
 }
 
